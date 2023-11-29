@@ -46,6 +46,7 @@ Nesta aula foram abordados os seguintes assuntos:
 - [TaskModel](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-03/src/main/java/br/com/marcussilva/todolist/tasks/TaskModel.java#L14)
 - [TaskController](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-03/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L16)
 - [TaskRepository com JPARepository (Repositório Genérico)](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-03/src/main/java/br/com/marcussilva/todolist/tasks/ITaskRepository.java#L6)
+- [Criação de Tasks](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-03/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L22)
 - [Introdução a autenticação de rotas (Components ou Guards)](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-03/src/main/java/br/com/marcussilva/todolist/filters/FilterTaskAuth.java#L17)
 
 ## Outras Aulas
