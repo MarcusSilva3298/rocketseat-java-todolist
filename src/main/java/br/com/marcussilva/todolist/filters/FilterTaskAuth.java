@@ -24,7 +24,7 @@ public class FilterTaskAuth extends OncePerRequestFilter {
     throws ServletException, IOException {
     String servletPath = request.getServletPath();
 
-    if (servletPath.equals("/tasks")) {
+    if (servletPath.contains("/tasks")) {
       String auth = request.getHeader("Authorization");
 
       String authEncoded = auth.substring("Basic".length()).trim();
@@ -39,7 +39,6 @@ public class FilterTaskAuth extends OncePerRequestFilter {
       var user = this.userRepository.findByUsername(username);
 
       if (user == null) {
-        System.out.println("Falhou user == null");
         response.sendError(401, "Unauthorized");
       } else {
         Result passwordVerify = BCrypt.verifyer().verify(password.toCharArray(), user.getPassword());
@@ -48,7 +47,6 @@ public class FilterTaskAuth extends OncePerRequestFilter {
           request.setAttribute("idUser", user.getId());
           filterChain.doFilter(request, response);
         } else {
-          System.out.println("Falhou verified");
           response.sendError(401, "Unauthorized");
         }
       }
