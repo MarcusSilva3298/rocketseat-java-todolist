@@ -1,9 +1,10 @@
 # Aprendizado Java com Spring
-
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white" alt="Spring" />
-<img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white" alt="Apache Maven" />
-<img src="https://img.shields.io/badge/H2-0007b6?style=flat&logo=databricks&logoColor=white" alt="H2" />
+<div>
+   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java" />
+   <img src="https://img.shields.io/badge/Spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white" alt="Spring" />
+   <img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat&logo=Apache%20Maven&logoColor=white" alt="Apache Maven" />
+   <img src="https://img.shields.io/badge/H2-0007b6?style=flat&logo=databricks&logoColor=white" alt="H2" />  
+</div>
 
 Este repositório contém meu aprendizado sobre Java com Spring a partir do curso da Rocketseat. Aqui você encontrará o código de cada aula.
 
