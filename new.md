@@ -37,19 +37,21 @@ O projeto é uma API de ToDo's, construída utilizando Java com Spring. Ele ofer
 
 2. Utilize o método da sua IDE preferida para rodar projetos Java
 
-
-## Esta Aula - Aula 05
+## Esta Aula - Aula 04
 
 Nesta aula foram abordados os seguintes assuntos:
 
-- [Validação de usuário dono do ToDo](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-05/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L62)
-- [Spring ControllerAdvice (Filtro de Exceptions)](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-05/src/main/java/br/com/marcussilva/todolist/errors/ExceptionHandlerController.java#L10)
-- [Live Reload (Spring Boot Devtools)](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-05/pom.xml#L22)
+- [Validação de rotas para autenticação](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/filters/FilterTaskAuth.java#L27)
+- [Adição valores no request](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/filters/FilterTaskAuth.java#L47)
+- [Busca de valores no request](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L29)
+- [Validações de dados para o ToDo](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L33)
+- [Listagem de ToDo's de um usuário](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L47)
+- [Atualização de ToDo's](https://github.com/MarcusSilva3298/rocketseat-java-todolist/blob/aula-04/src/main/java/br/com/marcussilva/todolist/tasks/TaskController.java#L53)
 
 ## Outras Aulas
 
 - **[Aula 01](https://github.com/MarcusSilva3298/rocketseat-java-todolist/tree/aula-01)**
 - **[Aula 02](https://github.com/MarcusSilva3298/rocketseat-java-todolist/tree/aula-02)**
 - **[Aula 03](https://github.com/MarcusSilva3298/rocketseat-java-todolist/tree/aula-03)**
-- **[Aula 04](https://github.com/MarcusSilva3298/rocketseat-java-todolist/tree/aula-04)**
-- Aula 05
+- Aula 04
+- **[Aula 05](https://github.com/MarcusSilva3298/rocketseat-java-todolist/tree/aula-05)**
